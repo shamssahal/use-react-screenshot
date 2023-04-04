@@ -32,8 +32,8 @@ const useScreenshot = ({ type, quality } = {}) => {
         // init data
         const cropPositionTop = 0
         const cropPositionLeft = 0
-        const cropWidth = canvas.width
-        const cropHeight = canvas.height
+        const cropWidth = 1920
+        const cropHeight = 1080
 
         croppedCanvas.width = cropWidth
         croppedCanvas.height = cropHeight
